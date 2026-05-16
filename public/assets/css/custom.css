@@ -1,0 +1,342 @@
+/*-------------------------- index-box-------------*/
+.menu .box .caption {
+    padding: 7px 10px 0 10px;
+}
+.menu .box .caption .price {
+    top: 6px;
+}
+.add-btn {
+    margin: 5px 2px 0 0;
+}
+.menu .box .caption {
+    min-height: 130px;
+    overflow: hidden;
+}
+
+/*------------------------------popup- addtocart1-----------*/
+.slanted-image__image img {
+    width: 100%;
+    height: 160px;
+}
+.modal-dialog.add-cart2 {
+    /*max-width: 402px;*/
+    margin: 1.75rem auto;
+    max-height: 650px;
+    overflow: auto;
+}
+.add-cart2 .close {
+    border: 3px solid #f0c713 !important;
+    padding: 5px 10px !important;
+    border-radius: 100%;
+    margin: 0 !important;
+    display: inline-block;
+    opacity: 1;
+    background: #ffffff;
+    position: absolute;
+    right: 5px;
+    top: 6px;
+    z-index: 9;
+}
+.add-cart2 .modal-header{
+    padding: 0;
+}
+.add-value .add {
+    padding: 0 9px 0 7px;
+}
+.second-cart .close {
+    right: 20px ;
+}
+.second-cart .main-bodypopup {
+    max-height: 550px;
+    overflow: auto;
+}
+
+
+.dish-list li span {
+    color: #000000;
+}
+
+.modal-footer_custom>:not(:last-child){
+    margin-right: 9px !important;
+}
+
+
+
+.modal-footer_custom{
+    padding: 12px;
+    display: inherit;
+
+}
+
+
+
+/*___________________________________-checkbox-styling--------------*/
+.styled-checkbox {
+    position: absolute;
+    opacity: 0;
+}
+.styled-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+.styled-checkbox + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border: 1px solid #f0c713;
+    border-radius: 5px;
+}
+.styled-checkbox:hover + label:before {
+    background: #f0c713;
+}
+.styled-checkbox:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.styled-checkbox:checked + label:before {
+    background: #f0c713;
+}
+.styled-checkbox:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+}
+.styled-checkbox:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+}
+.styled-checkbox:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 11px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.dish-list li {
+    float: left;
+    width: 50%;
+}
+
+/*-------------------------scroll bat-----------------*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f0c713;
+    outline: 1px solid slategrey;
+}
+
+
+/*------------------------------------------menu page----------------------------*/
+.button-box{
+    background: transparent !important;
+    border: none !important;
+}
+.button-box:hover{
+    background: transparent !important;
+    border: none !important;
+}
+.menu .button-box:hover {
+     -webkit-box-shadow:none;
+    -moz-box-shadow: none;
+     box-shadow: none;
+}
+.button-box .button-new {
+    width: 32%;
+    float: left;
+}
+.button-new button{
+    width: 98%;
+    height: 90px;
+}
+.button-new button span{
+    color:#f0c713;
+}
+.box.button-box button i {
+    font-size: 40px;
+}
+.box.button-box span{
+    color:#f0c713;
+    display: block;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+
+/*_________________________ add-item popup-----------------*/
+.add-head{
+    font-size: 16px;
+}
+.additem-popup .addcart-body .p-text {
+    padding: 0 15px 0;
+    margin: 20px 0;
+}
+.additem-popup .addcart-body{
+    padding: 0;
+    margin: 0;
+}
+.additem-popup .modal-header {
+    padding: 20px 17px 4px;
+}
+.additem-popup .wrap-one {
+    background: #131212;
+    padding: 10px;
+    height: 176px;
+    overflow: auto;
+    margin: 0;
+}
+.additem-popup .cart-footer {
+    padding: 0;
+}
+.additem-popup .wrap-one h2{
+    margin: 0 0 10px;
+}
+.popup-itemlist li {
+    display: block;
+    margin: 0 0 10px;
+}
+.add-item-info {
+    background: #f0c713;
+    border-radius: 100%;
+    padding: 5px 10px;
+    float: left;
+    width: 36px;
+    height: 36px;
+}
+.add-item-info i {
+    color: #ffffff;
+}
+
+.item-price {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding: 5px 0 0 ;
+}
+.item-name {
+    padding: 5px 0 0 9px;
+    float: left;
+    width: 70%;
+}
+.modal-dialog.add-cart2.additem-popup {
+    height: 100% !important;
+    max-height: 100% !important;
+    min-height: auto;
+    overflow: unset;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+
+}
+
+@media(max-width:1091px){
+    .add-btn {
+        margin: 10px 2px 10px 0;
+    }
+    .menu .box .caption .price {
+        top: 9px;
+        right: 2px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 767px){
+
+    .modal-dialog.add-cart2 .main-bodypopup {
+        max-height: 550px;
+        overflow: auto;
+    }
+    .add-cart2 .close {
+        right: 20px ;
+    }
+    .slanted-image__image img {
+        width: 100%;
+        height: 160px;
+    }
+    .main-bodypopup {
+        max-height: 230px;
+        overflow: auto;
+    }
+    .modal-dialog.add-cart2 {
+        /*max-height: 100% !important;*/
+    }
+    .menu-2 .col-md-6.col-sm-6.col-xs-12 {
+        max-width: 30%;
+        flex: 0 0 30%;
+    }
+    .menu .box2 .caption p {
+        /*display: none;*/
+    }
+    .menu .box2 {
+        border: none;
+        background: transparent;
+    }
+    .menu .box2 .caption2 {
+        min-height: auto;
+        background: transparent;
+        border: none;
+    }
+    .menu .box2:hover{
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 479px) {
+    .modal-dialog.add-cart2 {
+        max-width: 93%;
+    }
+    .add-value .add {
+        padding: 2px 22px 3px 7px;
+    }
+    .add-value.value-wrap input {
+        width: 60%;
+    }
+    .item-name {
+        width: 60%;
+    }
+    .menu-2 .col-md-6.col-sm-6.col-xs-12 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .menu .box2 .image {
+        width: 140px;
+        height: 140px;
+        float: none;
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 479px) {
+
+    .add-itembtn {
+        display: block;
+        /*padding: 10px 5px !important;*/
+        /*font-size: 12px !important;*/
+    }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: sketchtool 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Remove</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Redesigned" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="01-Items---Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-514.000000, -628.000000)" fill="#38BAF1">
+            <g id="Redesign" sketch:type="MSLayerGroup">
+                <g id="Products---Prop-3" transform="translate(222.000000, 275.000000)" sketch:type="MSShapeGroup">
+                    <g id="Column-1">
+                        <g id="Shirts" transform="translate(0.000000, 266.000000)">
+                            <g id="Quantity-Selector" transform="translate(292.000000, 87.000000)">
+                                <path d="M0,1.991155 C0,0.891470458 0.889673948,0 1.991155,0 L20.008845,0 C21.1085295,0 22,0.889673948 22,1.991155 L22,20.008845 C22,21.1085295 21.1103261,22 20.008845,22 L1.991155,22 C0.891470458,22 0,21.1103261 0,20.008845 L0,1.991155 Z M4.4,9.9 L17.6,9.9 L17.6,12.1 L4.4,12.1 L4.4,9.9 Z" id="Remove"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

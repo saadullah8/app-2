@@ -1,0 +1,52 @@
+/*!
+ *  Font Awesome v4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+@import url('//use.fontawesome.com/releases/v4.7.0/css/font-awesome-css.min.css');
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot');
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff') format('woff'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.ttf') format('truetype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+Embed code d14c3d7f80
+*/
+
+@font-face {
+	font-family: "Avenir W01";
+	font-style: normal;
+	font-weight: 200;
+	src: url("https://fast.fonts.net/dv2/14/4fb9056b-4ac3-488b-9bac-75741b0ff0bd.woff2?d44f19a684109620e484157fa290e8189253b5ae72bc4984ad6d0f108a0624ae804cfceae56c75a242112c639ef50f34f9603e877739fdc1fa2328800dea1b92b78f46d127e4dc333cee56e82ced2dcda45c289b9938b6c4522693ac6a025f6c3847a59532e690eb1d1dd021aff8c2e2de8280489bf05c8d65b22e5ea144540fef42fcbde3e56c04c684bfa8760cce84bdbcb7a0f63fcc3e87b9eab7fda0f7111aa20b1a1b&projectId=48aefdcd-12c4-473c-8f13-cf8e4bf228df") format('woff2');
+}
+@font-face {
+	font-family: "Avenir W01";
+	font-style: normal;
+	font-weight: 300;
+	src: url("https://fast.fonts.net/dv2/14/9bcb625d-81de-48c2-ba0c-664558d197e3.woff2?d44f19a684109620e484157fa290e8189253b5ae72bc4984ad6d0f108a0624ae804cfceae56c75a242112c639ef50f34f9603e877739fdc1fa2328800dea1b92b78f46d127e4dc333cee56e82ced2dcda45c289b9938b6c4522693ac6a025f6c3847a59532e690eb1d1dd021aff8c2e2de8280489bf05c8d65b22e5ea144540fef42fcbde3e56c04c684bfa8760cce84bdbcb7a0f63fcc3e87b9eab7fda0f7111aa20b1a1b&projectId=48aefdcd-12c4-473c-8f13-cf8e4bf228df") format('woff2');
+}
+@font-face {
+	font-family: "Avenir W01";
+	font-style: normal;
+	font-weight: 400;
+	src: url("https://fast.fonts.net/dv2/14/75c84254-5125-412c-bc24-56769ae3b627.woff2?d44f19a684109620e484157fa290e8189253b5ae72bc4984ad6d0f108a0624ae804cfceae56c75a242112c639ef50f34f9603e877739fdc1fa2328800dea1b92b78f46d127e4dc333cee56e82ced2dcda45c289b9938b6c4522693ac6a025f6c3847a59532e690eb1d1dd021aff8c2e2de8280489bf05c8d65b22e5ea144540fef42fcbde3e56c04c684bfa8760cce84bdbcb7a0f63fcc3e87b9eab7fda0f7111aa20b1a1b&projectId=48aefdcd-12c4-473c-8f13-cf8e4bf228df") format('woff2');
+}
+@font-face {
+	font-family: "Avenir W01";
+	font-style: normal;
+	font-weight: 500;
+	src: url("https://fast.fonts.net/dv2/14/e4d36745-a861-4a49-aa17-6510e67429d3.woff2?d44f19a684109620e484157fa290e8189253b5ae72bc4984ad6d0f108a0624ae804cfceae56c75a242112c639ef50f34f9603e877739fdc1fa2328800dea1b92b78f46d127e4dc333cee56e82ced2dcda45c289b9938b6c4522693ac6a025f6c3847a59532e690eb1d1dd021aff8c2e2de8280489bf05c8d65b22e5ea144540fef42fcbde3e56c04c684bfa8760cce84bdbcb7a0f63fcc3e87b9eab7fda0f7111aa20b1a1b&projectId=48aefdcd-12c4-473c-8f13-cf8e4bf228df") format('woff2');
+}
+@font-face {
+	font-family: "Avenir W01";
+	font-style: normal;
+	font-weight: 800;
+	src: url("https://fast.fonts.net/dv2/14/65cde95a-ac33-4c65-8198-e37857968d1a.woff2?d44f19a684109620e484157fa290e8189253b5ae72bc4984ad6d0f108a0624ae804cfceae56c75a242112c639ef50f34f9603e877739fdc1fa2328800dea1b92b78f46d127e4dc333cee56e82ced2dcda45c289b9938b6c4522693ac6a025f6c3847a59532e690eb1d1dd021aff8c2e2de8280489bf05c8d65b22e5ea144540fef42fcbde3e56c04c684bfa8760cce84bdbcb7a0f63fcc3e87b9eab7fda0f7111aa20b1a1b&projectId=48aefdcd-12c4-473c-8f13-cf8e4bf228df") format('woff2');
+}
